@@ -57,7 +57,7 @@ httpsServer.listen(config.httpsPort, () => {
   console.log(`HTTPS Server listening on port ${config.httpsPort}`);
 });
 
-const handlers = {};
+let handlers = {};
 
 handlers.hello = (data, callback) => {
   callback(
