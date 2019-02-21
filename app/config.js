@@ -1,4 +1,4 @@
-var environments = {};
+let environments = {};
 
 environments.staging = {
   httpPort: 3000,
